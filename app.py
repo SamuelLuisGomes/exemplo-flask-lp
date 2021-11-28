@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 tarefas = [
-    {"texto": "Estudar para a prova", "concluida": False},
+    {"texto": "Estudar para a prova, senão reprova", "concluida": False},
     {"texto": "Passear com o cachorro", "concluida": True},
     {"texto": "Estudar mais para a prova", "concluida": False},
 ]
